@@ -1,0 +1,137 @@
+html {
+    font-size: 16px !important;
+    height: 100%;
+    color: #25262a;
+}
+
+#sidebar {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 100%;
+    background: #fff;
+}
+
+#sidebar ul li {
+    border-bottom: 1px solid black;
+}
+
+#sidebar ul {
+    background: #ffe;
+}
+
+#sidebar ul li:last-child {
+    border: 0 !important;
+}
+
+.sticky-top {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+}
+
+.color-grey {
+    color: #8c92a0 !important;
+    line-height: 1.7;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.nav-link-items {
+    color: #8c92a0 !important;
+    line-height: 1.7;
+    font-size: 5rem;
+  
+
+}
+
+.nav-links-group li {
+    flex: 1 0 25%;
+
+}
+
+#logo {
+    height:100px;
+    width: 200px;
+}
+
+#menu {
+    font-size: 4rem;
+}
+
+.nav li a {
+    color: #25262a;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+}
+
+#brand {
+    background-color: #AA4639;
+    color: #FFFBFB;
+}
+
+#brand #brand_logo {
+    width: 100%;
+}
+
+#brand p {
+    line-height: 35px;
+    color: #FFFBFB;
+}
+
+#brand_title_logo {
+    font-weight: 900;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.icons {
+    color: #7971ea;
+    font-size: 3rem;
+}
+
+.images {
+    height: 500px;
+}
+
+.images .img {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/*.security {
+    background: linear-gradient(to bottom, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%), url('../images/Roving-guard.jpg');*/
+
+.amenities {
+    background: linear-gradient(to bottom, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%), url('../images/SubdivisionAmenities.jpg');
+}
+
+.info {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.description {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    color: white;
+}
+
+#features:after {
+    content:"";
+    background: #7971ea;
+    position: absolute;
+    top: 0;
+    left: 48.5%;
+    height: 1px;
+    width: 2.5%;
+}
+
+ul li {
+    list-style: none;
+}
